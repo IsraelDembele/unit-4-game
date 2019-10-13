@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>unit-4-game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container main-container">
+        <div class="col-12">
+            <div class="title"> Cristals Collector!</div>
+        </div>
+        <div>
+            <div class="row body-element">
+                <p class="text" style="background: cadetblue; font-size: medium;"> you will be given a random
+                    number at the start of the game.
+                    There are four cristal below. by cliking a cristal you will add
+                    a specific amoung of point to your total score.
+                    You win the game by matching your total score to the random number, you lose the game if your
+                    total score goes about the random number.
+                    The value of each cristals is hidden from you until you click on it.
+                    Each time when the game start, the game change the value of each cristal.
+
+                </p>
+            </div>
+            <div class="body-element">
+                <div class="row">
+                    <!-- <p class="col-sm-2" style="font-size: larger; background: cyan;"> 39</p> <br>
+                     <span class="col-sm-2" style="background: darkgoldenrod;"> win:0 <br> losses:0 </span> -->
+                     <div class="total"> 
+                         total: <span id="total">0</span>
+                     </div> 
+                     
+                     <div class="score"> goal: <span id="goal">39</span>
+
+                     </div>
+                     <div class="score"  >
+                         win: <span id="win">0</span>
+                     </div> 
+                     <div class="score"> lose: <span id="lose">0</span>
+
+                     </div>
+                </div>
+            </div>
+            <div class="body-element">
+                <div class="col-sm-4" style=" display: inline;"></div>
+                <div class="button">
+                    <img class="p-img" id="image-1" src="./assets/images/cristal image-1.jpg">
+                    <img class="p-img" id="image-2" src="./assets/images/cristal image-2.jpg">
+                    <img class="p-img" id="image-3" src="./assets/images/cristal image-3.jpg">
+                    <img class="p-img" id="image-4" src="./assets/images/cristal image-4.jpg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div> 
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
